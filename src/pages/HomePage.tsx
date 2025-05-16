@@ -239,7 +239,7 @@ const HomePage = () => {
                 </div>
                 <div className="flex space-x-4 mt-8">
                   <a
-                    href="https://github.com/selariousKnight"
+                    href="https://github.com/Pavan-009"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-white hover:text-blue-200 transition-colors"
