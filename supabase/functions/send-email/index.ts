@@ -33,7 +33,7 @@ Deno.serve(async (req) => {
     const data = await resend.emails.send({
       from: 'Portfolio Contact <onboarding@resend.dev>',
       to: ['your-email@example.com'], // Replace with your email
-      subject: `New Contact Form Submission from ${name}`,
+      subject: `Hi pavan you got a mail from ${name}`,
       html: `
         <h2>New Contact Form Submission</h2>
         <p><strong>Name:</strong> ${name}</p>
