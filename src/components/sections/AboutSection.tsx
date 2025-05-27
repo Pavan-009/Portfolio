@@ -4,6 +4,7 @@ import { Code, Database, Layout, Server } from 'lucide-react';
 import { skillsApi } from '../../services/api';
 import LoadingSpinner from '../ui/LoadingSpinner';
 import { toast } from '../ui/Toaster';
+import pavanImage from '../../asserts/pavan.jpg';
 
 interface Skill {
   _id: string;
@@ -69,7 +70,7 @@ const AboutSection = () => {
                 className="relative w-48 h-48 mx-auto"
               >
                 <img
-                  src="https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg"
+                  src={pavanImage}
                   alt="Profile"
                   className="rounded-full w-full h-full object-cover shadow-lg"
                 />
@@ -86,7 +87,7 @@ const AboutSection = () => {
                 className="space-y-4"
               >
                 <p className="text-gray-700 leading-relaxed">
-                  I am a passionate developer with a strong foundation in frontend technologies, bringing over 3+ of experience in crafting engaging web applications using HTML, CSS, JavaScript, jQuery, AngularJS, and React JS. My initial curiosity in how the web works has naturally led me to explore the full spectrum of web development. While my core expertise lies in the client-side, I am actively expanding my knowledge into backend domains, currently learning MongoDB for robust data management and Zustand for efficient state management within my React projects. This journey reflects my commitment to becoming a versatile full-stack developer capable of building comprehensive and scalable solutions.
+                  I am a passionate developer with a strong foundation in frontend technologies, bringing over 3+ of experience in crafting engaging web applications using HTML, CSS, JavaScript, jQuery,and React JS. My initial curiosity in how the web works has naturally led me to explore the full spectrum of web development. While my core expertise lies in the client-side, I am actively expanding my knowledge into backend domains, currently learning MongoDB for robust data management and Zustand for efficient state management within my React projects. This journey reflects my commitment to becoming a versatile full-stack developer capable of building comprehensive and scalable solutions.
                 </p>
                 <p className="text-gray-700 leading-relaxed">
                   I specialize in creating scalable, user-friendly applications using React and Node.js. 
