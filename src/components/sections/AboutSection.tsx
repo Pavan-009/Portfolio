@@ -12,7 +12,7 @@ interface Skill {
   icon: string;
   items: string[];
 }
-
+//About section component
 const AboutSection = () => {
   const [skills, setSkills] = useState<Skill[]>([]);
   const [loading, setLoading] = useState(true);
