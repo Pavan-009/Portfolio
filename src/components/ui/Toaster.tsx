@@ -126,7 +126,7 @@ export const Toaster = () => {
   }, []);
 
   return (
-    <div className="fixed top-4 right-4 z-50 flex flex-col space-y-4 pointer-events-none">
+    <div className="w-full fixed top-4 right-4 z-50 flex flex-col items-center space-y-4 pointer-events-none">
       <AnimatePresence>
         {toasts.map(toast => (
           <Toast key={toast.id} toast={toast} onClose={toastStore.remove.bind(toastStore)} />
