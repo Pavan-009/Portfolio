@@ -5,7 +5,7 @@ import mongoose from 'mongoose';
 import projectRoutes from './routes/projects.js';
 import authRoutes from './routes/auth.js';
 import skillsRoutes from './routes/skills.js';
-import contactRoutes from './routes/contact.js';
+import contactRoutes from './routes/contact.js'; 
 
 // Load environment variables
 dotenv.config();
