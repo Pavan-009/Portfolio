@@ -87,12 +87,13 @@ const AboutSection = () => {
                 className="space-y-4"
               >
                 <p className="text-gray-700 leading-relaxed">
-                  I am a passionate developer with a strong foundation in frontend technologies, bringing over 3+ of experience in crafting engaging web applications using HTML, CSS, JavaScript, jQuery,and React JS. My initial curiosity in how the web works has naturally led me to explore the full spectrum of web development. While my core expertise lies in the client-side, I am actively expanding my knowledge into backend domains, currently learning MongoDB for robust data management and Zustand for efficient state management within my React projects. This journey reflects my commitment to becoming a versatile full-stack developer capable of building comprehensive and scalable solutions.
-                </p>
-                <p className="text-gray-700 leading-relaxed">
-                  I specialize in creating scalable, user-friendly applications using React and Node.js. 
-                  My approach combines clean code principles with modern design patterns to deliver 
-                  high-quality solutions that solve real-world problems.
+                 I am a Full-Stack Developer with 3+ years of experience building scalable and secure web applications using JavaScript, React.js, and Node.js.
+                I specialize in creating responsive, high-performance user interfaces with a strong focus on usability, accessibility, and clean design.
+                On the frontend, I work extensively with React, modern state management, and UI frameworks like Material UI and Tailwind CSS.
+                On the backend, I develop Node.js and Express.js REST APIs with clean architecture and maintainable code.
+                I implement JWT-based authentication, role-based access control, and API security best practices to protect applications.
+                I optimize performance across the stack through efficient rendering, caching, and database query optimization.
+                I enjoy collaborating in Agile teams and delivering reliable, user-focused solutions end to end.
                 </p>
               </motion.div>
             </div>
