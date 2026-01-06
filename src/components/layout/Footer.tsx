@@ -1,6 +1,7 @@
 import { Code, Github, Linkedin } from 'lucide-react';
 import { Link } from 'react-router-dom';
-
+import dotenv from 'dotenv';
+dotenv.config();
 const Footer = () => {
   const currentYear = new Date().getFullYear();
 
@@ -20,7 +21,7 @@ const Footer = () => {
             </p>
             <div className="flex space-x-4">
               <a 
-                href="https://github.com/selariousKnight" 
+                href={process.env.GIT_HUB} 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="text-blue-200 hover:text-white transition-colors"
@@ -28,7 +29,7 @@ const Footer = () => {
                 <Github className="w-5 h-5" />
               </a>
               <a 
-                href="https://linkedin.com" 
+                href={process.env.LINKDIN} 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="text-blue-200 hover:text-white transition-colors"
