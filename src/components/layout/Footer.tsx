@@ -28,7 +28,7 @@ const Footer = () => {
                 <Github className="w-5 h-5" />
               </a>
               <a 
-                href="www.linkedin.com/in/pavan009" 
+                href="https://linkedin.com/in/pavan009" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="text-blue-200 hover:text-white transition-colors"
