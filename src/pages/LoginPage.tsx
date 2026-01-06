@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { useNavigate, Link } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';//Link
 import { motion } from 'framer-motion';
 import { useForm } from 'react-hook-form';
 import { useAuth } from '../context/AuthContext';
@@ -32,7 +32,6 @@ const LoginPage = () => {
       toast.success('Login successful');
       navigate('/admin');
     } catch (error: any) {
-      console.error('Login error:', error);
       setError(error.response?.data?.msg || 'Login failed. Please try again.');
     } finally {
       setLoading(false);
@@ -114,10 +113,10 @@ const LoginPage = () => {
 
             <div className="text-center mt-6">
               <p className="text-sm text-gray-600">
-                Don't have an account?{' '}
+                {/* Don't have an account?{' '}
                 <Link to="/register" className="text-blue-700 hover:text-blue-800 font-medium">
                   Register
-                </Link>
+                </Link> */}
               </p>
             </div>
           </form>
